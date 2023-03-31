@@ -1,31 +1,32 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import PlayArrowIcon from "@material-ui/icons/PlayArrow";
+import Icon  from './ce_logo.js';
+
 
 const useStyles = makeStyles((theme) => ({
   svgHover: {
     fill: theme.palette.foreground.default,
-    "&:hover": {
+    "&:hover $power": {
       fill: theme.palette.primary.main,
+      transform: "scale(1.2)",
     },
     transition: "all 0.5s ease",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    width: 96,
-    height: 96,
+    width: 28.5,
+    height: 28.5,
     borderRadius: "50%",
     border: `1px solid ${theme.palette.foreground.default}`,
+    boxSizing: "content-box",
+    padding: 10,
+    margin: "auto",
   },
-  arrow: {
+  power: {
     fill: theme.palette.foreground.default,
-    width: 100,
-    height: 120,
+    width: 60,
+    height: 60,
     transition: "all 0.5s ease",
-    "&:hover": {
-      fill: theme.palette.primary.main,
-      transform: "scale(1.2)",
-    },
   },
 }));
 
@@ -34,10 +35,13 @@ export const Logo = () => {
 
   return (
     <div className={classes.svgHover}>
-      <PlayArrowIcon className={classes.arrow} />
+      <Icon className={classes.power} />
     </div>
   );
 };
+
+
+  
 
 
 
