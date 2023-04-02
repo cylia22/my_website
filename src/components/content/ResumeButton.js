@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const ResumeIcon = () => {
+/*export const ResumeIcon = () => {
   const classes = useStyles();
 
   return (
@@ -31,7 +31,7 @@ export const ResumeIcon = () => {
       <path fillRule='evenodd' d="M14 2V6C14 7.10457 14.8954 8 16 8H20" stroke="black" strokeWidth="2" strokeLinejoin="round"/>
     </svg>
   );
-};
+};*/
 
 export const HeartIcon = () => {
   const classes = useStyles();
