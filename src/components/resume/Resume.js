@@ -30,7 +30,7 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= {`${ResumePDF}`}
+      //href= {`${ResumePDF}`}
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
