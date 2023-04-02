@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/Cylia_Engels_Resume.pdf';
+//import ResumePDF from './../../assets/Cylia_Engels_Resume.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';
@@ -30,15 +30,13 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= {`${ResumePDF}`}
+      //href= {`${ResumePDF}`}
+      href='https://adi-il.org'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
     >
-      <ResumeIcon />
-      <Typography component='span'>
-        <TextDecrypt text={'CV '} />
-      </Typography>
+    
     </Link>
   );
 };
