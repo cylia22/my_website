@@ -31,12 +31,14 @@ export const Resume = () => {
       color='inherit'
       underline='none'
       //href= {`${ResumePDF}`}
-      href='https://adi-il.org'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
     >
-    
+      <ResumeIcon />
+      <Typography component='span'>
+        <TextDecrypt text={'CV '} />
+      </Typography>
     </Link>
   );
 };
