@@ -2,10 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/Cylia_Engels_Resume.pdf';
-import {
-  ResumeIcon
-} from '../content/ResumeButton';
+//import ResumePDF from './../../assets/Cylia_Engels_Resume.pdf';
+//import {
+ // ResumeIcon
+//} from '../content/ResumeButton';
 
 const useStyles = makeStyles((theme) => ({
   footerText: {
